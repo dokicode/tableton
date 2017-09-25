@@ -1,0 +1,13 @@
+table td{
+	border: 1px solid grey;
+}
+
+
+.tr_over{
+
+	background-color: yellow;
+}
+
+.selected_cell {
+	background-color: red;
+}

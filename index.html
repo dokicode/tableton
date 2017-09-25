@@ -1,0 +1,63 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tables</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery.tablednd.js"></script>
+	<script type="text/javascript" src="jquery.tablesorter.js"></script>
+	<script type="text/javascript" src="jquery.tabletojson.js"></script>
+	
+	<!--script type="text/javascript" src="jquery.tables.js"></script-->
+	<!--script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script-->
+
+
+
+
+
+</head>
+<body>
+	
+
+<table>
+	
+<thead>
+	<tr>
+		<td>Древесина</td>
+		<td>Сорт</td>
+		<td>Длина</td>
+		<td>Толщина</td>
+		<td>Ширина</td>
+		<td>Цена</td>
+	</tr>
+</thead>
+<tbody>
+	
+</tbody>
+
+</table>
+
+
+<button id="addRow" onclick="tableton2.addEmptyTableRow('tbody');">Add Row</button>
+<button id="convertJSON" onclick="alert(tableton2.convertToJSON())">Convert to JSON</button>
+<button id="showBuffer" onclick="tableton2.showBuffer();">Buffer</button>
+<!--button id="btnAddInputs">Add Inputs</button-->
+<button id="btnWriteData" onclick="tableton2.writeDataInFile();">Write Data</button>
+<button id="btnReadData" onclick="tableton2.readDataFromFile();">Read Data</button>
+<button id="btnRowQty">Row quantity</button>
+<button id="btnDynatable" onlick="tablesort();">DynaTable</button>
+<button id="btnCreateTableFrame">Create Table</button>
+<button id="btnDeleteTBody" onclick="tableton2.removeTBody();">Clear Table</button>
+
+<span>Click me</span>
+
+<script type="text/javascript" src="mod.tables.js"></script>
+<!--script type="text/javascript" src="newmod.js"></script-->
+<script type="text/javascript" src="tables.js"></script>
+</body>
+</html>
